@@ -1,8 +1,3 @@
-// Написать метод в котором генерируется случайный возраст public static int generateRandomAge(){........}
-// При вызове метода, который формирует результат “можно ли идти гулять”
-// использовать генерирование случайного возраста с помощью метода “generateRandomAge” test(23, 10); test(generateRandomAge(), 10);
-
-import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         System.out.println("");
@@ -52,7 +47,7 @@ public class Main {
 
 
     public static int generateRandomAge(int min, int max){
-        int x = (int) ((Math.random() * (max - min + 1)) + min);   // 101
+        int x = (int) ((Math.random() * (max - min + 1)) + min);
         return x;
     }
 }
